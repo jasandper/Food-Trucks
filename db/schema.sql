@@ -1,2 +1,0 @@
-DROP DATABASE IF EXISTS `foodTrucks`;
-CREATE DATABASE `foodTrucks`;
