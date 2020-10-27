@@ -1,0 +1,110 @@
+* {
+  color: #d3bc8d;
+}
+
+#aboutme {
+  position: relative;
+  left: 0;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #d3bc8d;
+}
+
+body {
+  background-color: rgb(24, 24, 24);
+}
+
+.brand-logo {
+  overflow: clip;
+}
+
+#navigation {
+  background-color: rgb(24, 24, 24);
+}
+
+.card {
+  background-color: transparent;
+  max-height: 400px;
+  border: 2px solid #d3bc8d;
+}
+
+p {
+  line-height: 2rem;
+}
+
+h1, h2, h4 {
+  color:  #d3bc8d;
+}
+
+h5 {
+  color: white;
+}
+
+@media only screen and (max-width : 400px) {
+  .carousel-item {
+    position: absolute;
+    max-width: 420px;
+  }
+}
+
+li {
+  color: #d3bc8d;
+  padding-bottom: 5px;
+}
+
+.carousel>.item>img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 7px;
+  background-color: rgb(24, 24, 24);
+}
