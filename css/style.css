@@ -1,0 +1,59 @@
+* {
+  color: #ffffff;
+}
+
+
+
+nav ul a,
+nav .brand-logo {
+  color: #ffffff;
+}
+
+body {background-image: url("/Assets/background-project2.jpg"); /* The image used */
+  background-color: #000000; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+
+.brand-logo {
+  overflow: clip;
+}
+
+#navigation {
+  background-color: rgb(0, 0, 0);
+}
+
+.card {
+  background-image: url("/Assets/background-project2.jpg")
+  max-height: 400px;
+  border: 2px solid #f6f6f6;
+}
+
+p {
+  line-height: 2rem;
+}
+
+h1, h2, h4 {
+  color:  #ffffff;
+}
+
+h5 {
+  color: white;
+}
+
+
+
+
+footer.page-footer {
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 7px;
+  background-color: rgb(0, 0, 0);
+}
