@@ -13,6 +13,9 @@ const Truck = db.define('truck', {
     },
     contact_phone: {
         type: Sequelize.STRING
+    },
+    location: {
+        type: Sequelize.STRING
     }
 })
 
