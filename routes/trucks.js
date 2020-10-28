@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const db = require('../config/database');
 const Truck = require('../models/Truck');
+const Sequelize = require('sequelize');
+const Op = Sequelize.Op;
 
 // Get truck list
 router.get('/', (req, res) => 
@@ -65,5 +67,17 @@ router.post('/add', (req, res) => {
           .catch(err => console.log(err));
     }
 });
+
+// Search for trucks
+router.get('/search', (req, res) => {
+    let { term } = req.query;
+
+    // Make lowercase
+    term = term.toLowerCase();
+
+    Truck.findAll({ where: { type: { [Op.like]: '%' + term + '%'} } })
+      .then(trucks => res.render('trucks', { trucks }))
+      .catch(err => console.log(err));
+})
 
 module.exports = router;
