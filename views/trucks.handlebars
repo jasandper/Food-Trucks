@@ -1,12 +1,12 @@
 <section id="gigs" class="container">
-    <h1>All Trucks</h1>
+    <h1>All Food Trucks</h1>
 
     {{#each trucks}}
    <div class="gig">
       <h3>{{name}}</h3>
       <p>{{description}}</p>
       <ul>
-        <li><a href="http://maps.google.com/?q="+{{location}}>...</a>{{location}}</li>
+        <li>{{location}}</li>
         <li><a href="tel: {{contact_phone}}" class="btn btn-reverse">Call: {{contact_phone}} </a></li>
       </ul>
       <div class="tech">
