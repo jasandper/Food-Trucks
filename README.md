@@ -14,9 +14,17 @@ If there is one thing that has really blown up in Austin in the last 10 years is
 
 #**Table of Content**
 
-* Usage
-* Development
-* Contributors
+- [Project Title](#project-title)
+- [Demo-Preview](#demo-preview)
+- [Table of contents](#table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Development](#development)
+- [Contribute](#contribute)
+    - [Sponsor](#sponsor)
+    - [Adding new features or fixing bugs](#adding-new-features-or-fixing-bugs)
+- [License](#license)
+- [Footer](#footer)
 
 
 #**USAGE**
