@@ -5,27 +5,27 @@
       <form action="/trucks/add" method="POST">
         <div class="input-group">
           <label for="title">Food Truck Name</label>
-          <input type="text" name="title" id="title" class="input-box" placeholder="eg. El Jefe"
-            maxlength="100" required>
+          <input type="text" name="name" id="title" class="input-box" placeholder="eg. El Jefe"
+            maxlength="100">
         </div>
         <div class="input-group">
           <label for="technologies">Food Type</label>
-          <input type="text" name="technologies" id="technologies" class="input-box" placeholder="eg. vegan, bbq, desserts, tacos"
+          <input type="text" name="type" id="technologies" class="input-box" placeholder="eg. vegan, bbq, desserts, tacos"
           maxlength="100">
         </div>
         <div class="input-group">
           <label for="budget">Location</label>
-          <input type="number" name="budget" id="budget" class="input-box" placeholder="eg. 123 West 6th St. Austin TX 78724">
+          <input type="number" name="location" id="budget" class="input-box" placeholder="eg. 123 West 6th St. Austin TX 78724">
         </div>
         <div class="input-group">
           <label for="description">Description</label>
           <textarea name="description" id="description" class="input-box" placeholder="Tell us more about your food truck"
-            rows="10" required></textarea>
+            rows="10"></textarea>
         </div>
         <div class="input-group">
           <label for="budget">Contact Phone</label>
-          <input type="email" name="contact_email" id="contactemail" class="input-box" placeholder="Enter a phone number"
-            required>
+          <input type="email" name="contact_phone" id="contactemail" class="input-box" placeholder="Enter a phone number"
+            >
         </div>
         <input type="submit" value="Add Truck" class="btn btn-reverse">
       </form>

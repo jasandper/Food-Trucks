@@ -16,27 +16,47 @@ router.get('/add', (req, res) => res.render('add'));
 
 // Add a truck
 router.post('/add', (req, res) => {
-    const data = {
-        name: "Queen Bees",
-        type: 'icecream,desert',
-        description: 'Locally made ice cream',
-        contact_phone: '3612383827',
-        location: "6th Street Austin, TX"
 
+    let { name, type, description, contact_phone, location} = req.body;
+    let errors = [];
+
+
+    // Validate Fields
+    if(!name) {
+      errors.push({ text: 'Please add a title' });
+    }
+    if(!type) {
+        errors.push({ text: 'Please add at least one type' });
+    }
+    if(!description) {
+      errors.push({ text: 'Please add a description' });
+    }
+    if(!contact_phone) {
+        errors.push({ text: 'Please add a contact phone' });
     }
 
-    let { name, type, description, contact_phone, location} = data;
-
-    // Insert into table
-    Truck.create({
+    // Check for errors
+    if(errors.length > 0) {
+      res.render('add', {
+          errors,
+          name,
+          type,
+          location,
+          description,
+          contact_phone
+      });
+    } else {
+      // Insert into table
+      Truck.create({
         name,
         type,
         description,
         contact_phone,
         location
     })
-      .then(truck => res.redirect('/trucks'))
-      .catch(err => console.log(err));
+          .then(truck => res.redirect('/trucks'))
+          .catch(err => console.log(err));
+    }
 });
 
 module.exports = router;
