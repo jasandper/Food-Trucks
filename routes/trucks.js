@@ -46,6 +46,13 @@ router.post('/add', (req, res) => {
           contact_phone
       });
     } else {
+    if(!location) {
+        location = 'Unknown';
+    }
+
+    // Make lowercase and remove space after comma
+    type = type.toLowerCase().replace(/, /g, ',');
+
       // Insert into table
       Truck.create({
         name,
