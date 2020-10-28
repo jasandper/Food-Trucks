@@ -6,11 +6,11 @@
       <h3>{{name}}</h3>
       <p>{{description}}</p>
       <ul>
-        <li>type: {{type}}</li>
-        <li><a href="tel: " class="btn btn-reverse">Call: </a></li>
+        <li><a href="http://maps.google.com/?q="+{{location}}>...</a>{{location}}</li>
+        <li><a href="tel: {{contact_phone}}" class="btn btn-reverse">Call: {{contact_phone}} </a></li>
       </ul>
       <div class="tech">
-        <small>location: {{location}} <span></span></small>
+        <small>type: {{type}} <span></span></small>
       </div>
     </div>
 

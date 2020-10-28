@@ -10,10 +10,12 @@ router.get('/', (req, res) =>
             trucks
         }))
     .catch(err => console.log(err)));
-    
+
+// Display add truck form
+router.get('/add', (req, res) => res.render('add'));   
 
 // Add a truck
-router.get('/add', (req, res) => {
+router.post('/add', (req, res) => {
     const data = {
         name: "Queen Bees",
         type: 'icecream,desert',
