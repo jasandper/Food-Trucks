@@ -38,10 +38,17 @@ If there is one thing that has really blown up in Austin in the last 10 years is
 
 # Contribute
 
+##**The BEEFY BoyZ Crew:
+
+Chase Kilpatrick
+
+Justin Pricer
 https://github.com/justinpricer
 
+Jason Perez
 https://github.com/jasandper
 
+Roger Lara
 https://github.com/rolara57
 
 
