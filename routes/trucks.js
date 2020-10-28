@@ -5,12 +5,12 @@ const Truck = require('../models/Truck');
 
 // Get truck list
 router.get('/', (req, res) => 
-  Truck.findAll()
-    .then(trucks => {
-        console.log(trucks);
-        res.sendStatus(200);
-    })
+  Truck.findAll({})
+    .then(trucks => res.render('trucks', {
+            trucks
+        }))
     .catch(err => console.log(err)));
+    
 
 // Add a truck
 router.get('/add', (req, res) => {

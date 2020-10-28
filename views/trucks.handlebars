@@ -1,0 +1,22 @@
+<section id="gigs" class="container">
+    <h1>All Trucks</h1>
+
+    {{#each trucks}}
+   <div class="gig">
+      <h3>{{name}}</h3>
+      <p>{{description}}</p>
+      <ul>
+        <li>type: {{type}}</li>
+        <li><a href="tel: " class="btn btn-reverse">Call: </a></li>
+      </ul>
+      <div class="tech">
+        <small>location: {{location}} <span></span></small>
+      </div>
+    </div>
+
+    {{else}}
+      <p>No Trucks avialble</p>
+    {{/each}}
+    
+
+  </section>
