@@ -1,6 +1,7 @@
 # Food-Truckz
 ## A BEEFY BoyZ Application
 ![Screen Shot 2020-10-22 at 7 15 10 PM](https://user-images.githubusercontent.com/60681276/97395198-643e9380-18b2-11eb-97d8-44cadbedf35f.png)
+
 <a href=”https://twitter.com/your_twitter_username_here"><img src=”https://img.shields.io/twitter/follow/your_twitter_username_here?label=Follow&style=social"></a>
 
 
