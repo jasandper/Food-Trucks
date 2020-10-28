@@ -41,6 +41,7 @@ If there is one thing that has really blown up in Austin in the last 10 years is
 ## **The BEEFY BoyZ Crew:**
 
 Chase Kilpatrick
+https://github.com/chaseKay97
 
 Justin Pricer
 https://github.com/justinpricer
