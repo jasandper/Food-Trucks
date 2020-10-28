@@ -26,7 +26,8 @@ app.set('view engine', 'handlebars');
 // Set static folder
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/', (req, res) => res.send('INDEX'));
+// Index route
+app.get('/', (req, res) => res.render('index', { layout: 'landing'}));
 
 // Truck routes
 app.use('/trucks', require('./routes/trucks'));
@@ -35,5 +36,5 @@ const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, console.log(`Server started on port ${PORT}`));
 
-// teset 
+
 
