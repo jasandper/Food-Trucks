@@ -11,7 +11,10 @@ router.get('/', (req, res) =>
     .then(trucks => res.render('trucks', {
             trucks
         }))
-    .catch(err => console.log(err)));
+    .catch(err => {console.log(err)
+    res.status(404).send('Cannot find trucks')
+    }));
+
 
 // Display add truck form
 router.get('/add', (req, res) => res.render('add'));   
