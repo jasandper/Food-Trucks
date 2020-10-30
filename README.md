@@ -11,7 +11,14 @@
 
 #**Motivation**
 
-If there is one thing that has really blown up in Austin in the last 10 years is the food scene. From Westlake to East Austin, from North to South, in every neighborhood you will find a Food Truck. This application was created for that reason. A user friendly data base that will grow with you.  
+If there is one thing that has really blown up in Austin in the last 10 years is the food scene. From Westlake to East Austin, from North to South, in every neighborhood you will find a Food Truck. This application was created for that reason. A user friendly data base that will grow with you.
+
+## Badges 
+[![npm version](https://badge.fury.io/js/Javascript.svg)](https://badge.fury.io/js/Javascript) 
+[![npm version](https://badge.fury.io/js/HTML  HTML Handelbars.svg)](https://badge.fury.io/js/HTML  HTML Handelbars) 
+[![npm version](https://badge.fury.io/js/NPM.svg)](https://badge.fury.io/js/NPM) 
+[![npm version](https://badge.fury.io/js/Sequelize.svg)](https://badge.fury.io/js/Sequelize) 
+[![npm version](https://badge.fury.io/js/Express.svg)](https://badge.fury.io/js/Express) 
 
 #**Table of Content(#table-of-contents)**
 
