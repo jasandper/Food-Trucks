@@ -1,5 +1,4 @@
 const Sequelize = require('sequelize');
-//
 
 
 module.exports = new Sequelize('foodtrucks', 'postgres', '5276', {
@@ -14,3 +13,4 @@ module.exports = new Sequelize('foodtrucks', 'postgres', '5276', {
         idle: 10000
     },
 });
+//
