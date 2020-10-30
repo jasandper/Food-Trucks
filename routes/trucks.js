@@ -7,13 +7,11 @@ const Op = Sequelize.Op;
 
 // Get truck list
 router.get('/', (req, res) => 
-  Truck.findAll({})
+  Truck.findAll()
     .then(trucks => res.render('trucks', {
             trucks
         }))
-    .catch(err => {console.log(err)
-    res.status(404).send('Cannot find trucks')
-    }));
+    .catch(err => res.render('error', {error,  err})));
 
 
 // Display add truck form
