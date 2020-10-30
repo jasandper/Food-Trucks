@@ -17,6 +17,6 @@ const Truck = db.define('truck', {
     location: {
         type: Sequelize.STRING
     }
-}, {freezeTableName: true})
+});
 
 module.exports = Truck;
