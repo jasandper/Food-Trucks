@@ -18,6 +18,5 @@ const Truck = db.define('truck', {
         type: Sequelize.STRING
     }
 });
-//
 
 module.exports = Truck;
