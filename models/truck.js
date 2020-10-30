@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 const db = require ('../config/database');
-//
+
 
 const Truck = db.define('truck', {
     name: {
