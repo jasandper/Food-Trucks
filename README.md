@@ -18,13 +18,20 @@ If there is one thing that has really blown up in Austin in the last 10 years is
 
 #**Table of Content(#table-of-contents)**
 
-- [Installation](#installation)
+- [Technologies Used](#installation)
 - [Usage](#usage)
 - [Development](#development)
 - [Contribute](#contribute)
 
-# Installation
-
+# Technoligies Used
+* HTML
+* CSS
+* JavaScript/jquery 
+* Handelbars 
+* NPM
+* Sequelize
+* Express
+* 
 
 
 
