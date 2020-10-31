@@ -18,8 +18,6 @@ If there is one thing that has really blown up in Austin in the last 10 years is
 - [Technologies Used](#Technologies Used)
 - [Usage](#usage)
 - [Development](#development)
-    - [Adding to Chrome](#adding-to-chrome)
-    - [Adding to Firefox](#adding-to-firefox)
 - [Contribute](#contribute)
 
 
