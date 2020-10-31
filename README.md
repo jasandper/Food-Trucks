@@ -15,7 +15,7 @@ If there is one thing that has really blown up in Austin in the last 10 years is
 
 #**Table of Content(#table-of-contents)**
 
-- [Technologies Used](#Technologies Used)
+- [Technologies Used](#Technologies-Used)
 - [Usage](#usage)
 - [Development](#development)
 - [Contribute](#contribute)
