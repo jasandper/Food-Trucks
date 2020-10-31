@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+#find {
+  color: #c09029;
+}
+
 :root {
-  --primary-color: #70888f;
-  --primary-hover-color: #7d99a1;
+  --primary-color: #dab53e;
+  --primary-hover-color: #c09029;
   --bg-color: #333;
   --box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.7);
 }
