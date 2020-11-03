@@ -5,7 +5,7 @@
 **Your Life just got easier**:
 > Welcome to Food-Trucks 
 >the Austin application you have been waiting for.
-<img width="790" alt="Screen Shot 2020-11-02 at 2 38 40 PM" src="https://user-images.githubusercontent.com/60681276/97916790-1c3bc880-1d19-11eb-96f1-e45e00e294f9.png">
+![Screen Shot 2020-11-02 at 9 46 58 PM](https://user-images.githubusercontent.com/60681276/97948143-414e2c80-1d55-11eb-8a78-cef69816fc17.png)
 
 ##**link**
 - [GitHub Repo](https://github.com/jasandper/Food-Trucks)
